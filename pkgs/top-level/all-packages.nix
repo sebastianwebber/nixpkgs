@@ -2484,6 +2484,10 @@ with pkgs;
     pythonPackages = python3Packages;
   };
 
+  git-cu = callPackage ../applications/version-management/git-and-tools/git-cu {
+    pythonPackages = python3Packages;
+  };
+
   git-vanity-hash = callPackage ../applications/version-management/git-vanity-hash { };
 
   git-vendor = callPackage ../applications/version-management/git-vendor { };
